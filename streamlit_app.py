@@ -36,3 +36,7 @@ with st.echo(code_location='below'):
     st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
+
+
+
+st.link_button("My Facebook", "https://www.facebook.com/luqmanulhakim832", type="secondary", disabled=False, use_container_width=False)
